@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run MCP Travel Planner",
+      "type": "java",
+      "request": "launch",
+      "mainClass": "com.mcp.travel.TravelPlannerApp",
+      "projectName": "mcp-travel-planner-java",
+      "cwd": "${workspaceFolder}/mcp-travel-planner-java",
+      "env": {
+        "SERVER_PORT": "8082"
+      }
+    }
+  ]
+}
